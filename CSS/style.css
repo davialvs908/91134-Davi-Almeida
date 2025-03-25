@@ -1,0 +1,63 @@
+/* seletores */
+
+/* ZERA AS CONFG*/
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+
+    color: blue;
+    /* tipo de fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    /* tamanho*/
+    font-size: 20pt;
+    /*  negrito*/
+
+    font-weight: bold;
+
+/* centraliozar*/
+text-align: center;
+
+/* respiro(espaço) dos elementos */
+padding-bottom: 20px;
+padding-top: 20px;
+padding:  20px;
+
+}
+
+
+
+h2{
+    background-color: darkslategrey;
+}
+
+section{
+    margin: 20px;
+    
+}
+
+p{
+    text-align: justify;
+    padding-top: 15px;S
+
+}
+
+h3{
+    color: rgb(129, 120, 138);
+
+}
+
+footer{
+    background-color: rgb(4, 61, 61);
+    margin: 15px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+h2:hover{
+    color: rgb(241, 68, 0);
+    
+}
