@@ -1,0 +1,92 @@
+/* Reset Padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do Corpo */
+body {
+    background-color: #053b79;
+    font-family: Arial, sans-serif;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+/* Estilização do Menu */
+nav {
+    background-color: #091440;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* Estilização da Logo */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 50vh;  /* Garante que ocupe toda a altura da tela */
+    
+
+}
+
+
+.logo-container img {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Estilização dos Títulos */
+h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* Seções */
+section {
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 20px;
+    background-color: rgb(9, 17, 68);
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgb(4, 23, 134);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Hover nos títulos */
+h2:hover {
+    color: rgb(241, 68, 0);
+}
+
+p :hover{
+    color: mediumvioletred;
+}
