@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Fundo da página */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #6c63ff, #48c9b0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container do formulário */
+.form-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Título do formulário */
+form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilo dos rótulos */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: #444;
+  font-weight: bold;
+}
+
+/* Campos de entrada */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+/* Efeito ao focar no input */
+form input:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+/* Botão */
+form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efeito no hover */
+form button:hover {
+  background-color: #5848c2;
+}
+
+/* Mensagem de erro */
+#error-message {
+  color: red;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
